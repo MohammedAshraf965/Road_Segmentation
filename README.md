@@ -23,6 +23,5 @@ To start the training, run the following command:
 ```bash
 python train.py --batch 8 --imgsz 384 --lr 0.05 --epochs 100
 ```
-Specify the desired batch size, image size, learning rate, and number of epochs
 
 # Result Analysis
