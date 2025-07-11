@@ -4,7 +4,7 @@ A Semantic Segmentation project for road scenes and autonomous driving tasks. Th
 
 You can download the dataset from [here](https://www.cvlibs.net/datasets/kitti/eval_semseg.php?benchmark=semantics2015). Make sure to create an account since cvlibs require an account to verify the use of their data
 
-# Preparing the Training and Validation Split
+# Project Structure
 
 - create_data_folder.py: Creates and initializes the folders for the train and validation splits. The dataset has 200 images and masks (including semantic, instance, and rgb). The ratio used was 4:1. The script needs to be executed first so as to create the data folders for the train script
 - config.py: Initializes the names and colors for the objects to be detected. Although the dataset has a labels.py which contains all the names and values needed, you can create your own labels and color palettes
