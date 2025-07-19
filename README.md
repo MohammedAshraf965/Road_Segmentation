@@ -19,7 +19,7 @@ You can download the dataset from [here](https://www.cvlibs.net/datasets/kitti/e
     - Preparing the training and validation datasets and dataloaders
     - Starting the training loop
 
-To start the training, run the following command:
+Run the following command:
 ```bash
 python train.py --batch 8 --imgsz 384 --lr 0.05 --epochs 100
 ```
